@@ -1,0 +1,13 @@
+{
+  "startedAt" : "2026-11-09T07:19:43.059804400Z",
+  "finishedAt" : "2026-11-09T07:19:43.871879Z",
+  "durationMs" : 812,
+  "total" : 0,
+  "passed" : 0,
+  "failed" : 0,
+  "skipped" : 0,
+  "passPercentage" : 0.0,
+  "moduleSummary" : { },
+  "typeSummary" : { },
+  "tests" : [ ]
+}

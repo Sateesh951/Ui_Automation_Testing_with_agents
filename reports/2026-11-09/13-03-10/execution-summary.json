@@ -1,0 +1,34 @@
+{
+  "startedAt" : "2026-11-09T07:33:10.450751200Z",
+  "finishedAt" : "2026-11-09T07:33:37.760584200Z",
+  "durationMs" : 27310,
+  "total" : 1,
+  "passed" : 1,
+  "failed" : 0,
+  "skipped" : 0,
+  "passPercentage" : 100.0,
+  "moduleSummary" : {
+    "Login" : {
+      "PASS" : 1
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Login",
+    "testCaseId" : "LOGIN-001",
+    "description" : "Sign in with valid staff credentials",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "Staff account is authenticated and the admin dashboard opens",
+    "actualResult" : "All configured assertions passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 25791,
+    "startedAt" : "2026-11-09T07:33:11.485737800Z",
+    "finishedAt" : "2026-11-09T07:33:37.271642700Z"
+  } ]
+}

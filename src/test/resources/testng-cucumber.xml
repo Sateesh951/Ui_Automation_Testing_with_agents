@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber UI Automation">
+    <listeners><listener class-name="com.automation.listeners.FrameworkListener"/></listeners>
+    <test name="Gherkin scenarios">
+        <classes><class name="com.automation.tests.cucumber.CucumberTestRunner"/></classes>
+    </test>
+</suite>

@@ -1,0 +1,452 @@
+[ {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify dashboard page loads successfully",
+  "screenshot" : null,
+  "line" : 11,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 2935,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 506,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the page heading should be \"Mini's n More Dashboard\"",
+    "line" : 12,
+    "status" : "PASSED",
+    "durationMs" : 7,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the sidebar navigation should be visible",
+    "line" : 13,
+    "status" : "PASSED",
+    "durationMs" : 4,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the dashboard summary cards should be visible",
+    "line" : 14,
+    "status" : "PASSED",
+    "durationMs" : 61,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify dashboard summary counts",
+  "screenshot" : null,
+  "line" : 17,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1235,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 328,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Total Categories\" card should display \"9\"",
+    "line" : 18,
+    "status" : "PASSED",
+    "durationMs" : 66,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Products\" card should display \"27\"",
+    "line" : 19,
+    "status" : "PASSED",
+    "durationMs" : 17,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total SKUs\" card should display \"17\"",
+    "line" : 20,
+    "status" : "PASSED",
+    "durationMs" : 11,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Coupons\" card should display \"3\"",
+    "line" : 21,
+    "status" : "PASSED",
+    "durationMs" : 18,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify product status breakdown",
+  "screenshot" : null,
+  "line" : 24,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1144,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 363,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Total Products\" card should display \"25 active\"",
+    "line" : 25,
+    "status" : "PASSED",
+    "durationMs" : 45,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Products\" card should display \"2 inactive\"",
+    "line" : 26,
+    "status" : "PASSED",
+    "durationMs" : 24,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Navigate to the Products page",
+  "screenshot" : null,
+  "line" : 29,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1065,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 330,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator selects \"Products\" from the sidebar",
+    "line" : 30,
+    "status" : "PASSED",
+    "durationMs" : 115,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the Products management page should be displayed",
+    "line" : 31,
+    "status" : "PASSED",
+    "durationMs" : 7,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Search for an admin page using sidebar search",
+  "screenshot" : null,
+  "line" : 34,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1131,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 346,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator enters \"Products\" in the sidebar search field",
+    "line" : 35,
+    "status" : "PASSED",
+    "durationMs" : 29,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Products\" navigation item should be displayed",
+    "line" : 36,
+    "status" : "PASSED",
+    "durationMs" : 11,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "unrelated navigation items should not be displayed",
+    "line" : 37,
+    "status" : "PASSED",
+    "durationMs" : 16,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Prevent dashboard access when the administrator is logged out",
+  "screenshot" : "UI/screenshots/Prevent_dashboard_access_when_the_administrator_is_logged_out-606499549190600.png",
+  "line" : 40,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1223,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 410,
+    "error" : null
+  }, {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged out",
+    "line" : 41,
+    "status" : "PASSED",
+    "durationMs" : 10,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the user navigates directly to the Dashboard URL",
+    "line" : 42,
+    "status" : "PASSED",
+    "durationMs" : 170,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the user should be redirected to the login page",
+    "line" : 43,
+    "status" : "FAILED",
+    "durationMs" : 16,
+    "error" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]"
+  }, {
+    "keyword" : "And ",
+    "text" : "dashboard data should not be displayed",
+    "line" : 44,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Handle dashboard summary service failure",
+  "screenshot" : null,
+  "line" : 47,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1743,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 1001,
+    "error" : null
+  }, {
+    "keyword" : "Given ",
+    "text" : "the dashboard summary service is unavailable",
+    "line" : 48,
+    "status" : "PASSED",
+    "durationMs" : 5,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator opens the Dashboard page",
+    "line" : 49,
+    "status" : "PASSED",
+    "durationMs" : 640,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "a user-friendly error message should be displayed",
+    "line" : 50,
+    "status" : "PASSED",
+    "durationMs" : 99,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "fabricated metric values should not be displayed",
+    "line" : 51,
+    "status" : "PASSED",
+    "durationMs" : 58,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Handle missing dashboard metric data",
+  "screenshot" : "UI/screenshots/Handle_missing_dashboard_metric_data-606519277200600.png",
+  "line" : 54,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1066,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 360,
+    "error" : null
+  }, {
+    "keyword" : "Given ",
+    "text" : "the dashboard summary response does not contain the \"Total SKUs\" value",
+    "line" : 55,
+    "status" : "PASSED",
+    "durationMs" : 3,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator opens the Dashboard page",
+    "line" : 56,
+    "status" : "PASSED",
+    "durationMs" : 1210,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Total SKUs\" card should display an unavailable state",
+    "line" : 57,
+    "status" : "FAILED",
+    "durationMs" : 10035,
+    "error" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-4919869807386297758\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-4919869807386297758\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-4919869807386297758\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByText(\"Total SKUs\").first().locator(\"..\").getByText(Pattern.compile(\"\\\\b(unavailable|not available|n\\\\/?a)\\\\b|[—–]\", Pattern.CASE_INSENSITIVE)) to be visible\n"
+  }, {
+    "keyword" : "And ",
+    "text" : "the card should not display \"undefined\" or \"null\"",
+    "line" : 58,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Display an empty state when sidebar search has no matches",
+  "screenshot" : "UI/screenshots/Display_an_empty_state_when_sidebar_search_has_no_matches-606524047055500.png",
+  "line" : 61,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1571,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 420,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator enters \"NoSuchAdminPage123\" in the sidebar search field",
+    "line" : 62,
+    "status" : "PASSED",
+    "durationMs" : 54,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "no navigation items should be displayed",
+    "line" : 63,
+    "status" : "PASSED",
+    "durationMs" : 7,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "a \"No pages found\" message should be displayed",
+    "line" : 64,
+    "status" : "FAILED",
+    "durationMs" : 9,
+    "error" : "java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]"
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Redirect the administrator when the session has expired",
+  "screenshot" : "UI/screenshots/Redirect_the_administrator_when_the_session_has_expired-606527905986000.png",
+  "line" : 67,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1249,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 344,
+    "error" : null
+  }, {
+    "keyword" : "Given ",
+    "text" : "the administrator's session has expired",
+    "line" : 68,
+    "status" : "PASSED",
+    "durationMs" : 6,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator refreshes the Dashboard page",
+    "line" : 69,
+    "status" : "PASSED",
+    "durationMs" : 137,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the administrator should be redirected to the login page",
+    "line" : 70,
+    "status" : "FAILED",
+    "durationMs" : 2,
+    "error" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]"
+  }, {
+    "keyword" : "And ",
+    "text" : "protected dashboard information should not be visible",
+    "line" : 71,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+} ]

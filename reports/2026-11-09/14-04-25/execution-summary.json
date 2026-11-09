@@ -1,0 +1,34 @@
+{
+  "startedAt" : "2026-11-09T08:34:25.844814700Z",
+  "finishedAt" : "2026-11-09T08:34:49.870965800Z",
+  "durationMs" : 24026,
+  "total" : 1,
+  "passed" : 0,
+  "failed" : 1,
+  "skipped" : 0,
+  "passPercentage" : 0.0,
+  "moduleSummary" : {
+    "Unknown" : {
+      "FAIL" : 1
+    }
+  },
+  "typeSummary" : {
+    "Unknown" : {
+      "FAIL" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Unknown",
+    "testCaseId" : "runScenario",
+    "description" : "runScenario",
+    "testType" : "Unknown",
+    "status" : "FAIL",
+    "expectedResult" : "",
+    "actualResult" : "One or more assertions or test steps failed.",
+    "failureReason" : "Expected visible heading: Categori expected [true] but found [false]",
+    "exceptionDetails" : "java.lang.AssertionError: Expected visible heading: Categori expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:111)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1590)\r\n\tat org.testng.Assert.assertTrue(Assert.java:57)\r\n\tat com.automation.tests.cucumber.LoginNavigationSteps.verifyHeading(LoginNavigationSteps.java:72)\r\n\tat ✽.I should see the \"Categori\" heading(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/Test%20cases/Login%20Dashboard%20Categories%20Logout.feature:16)\r\n",
+    "durationMs" : 22802,
+    "startedAt" : "2026-11-09T08:34:26.684803600Z",
+    "finishedAt" : "2026-11-09T08:34:49.486106300Z"
+  } ]
+}

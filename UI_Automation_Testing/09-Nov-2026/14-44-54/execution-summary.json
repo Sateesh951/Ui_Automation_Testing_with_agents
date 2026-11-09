@@ -1,0 +1,34 @@
+{
+  "startedAt" : "2026-11-09T09:14:54.505420600Z",
+  "finishedAt" : "2026-11-09T09:15:19.890447800Z",
+  "durationMs" : 25385,
+  "total" : 1,
+  "passed" : 1,
+  "failed" : 0,
+  "skipped" : 0,
+  "passPercentage" : 100.0,
+  "moduleSummary" : {
+    "Login" : {
+      "PASS" : 1
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Login",
+    "testCaseId" : "LOGIN-10",
+    "description" : "Sign in, verify Dashboard and Categories, then sign out",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 6971,
+    "startedAt" : "2026-11-09T09:15:12.467003400Z",
+    "finishedAt" : "2026-11-09T09:15:19.438943200Z"
+  } ]
+}

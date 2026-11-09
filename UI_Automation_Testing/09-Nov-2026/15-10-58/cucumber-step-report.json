@@ -1,0 +1,209 @@
+[ {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify dashboard page loads successfully",
+  "screenshot" : null,
+  "line" : 11,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1997,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 338,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the page heading should be \"Mini's n More Dashboard\"",
+    "line" : 12,
+    "status" : "PASSED",
+    "durationMs" : 8,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the sidebar navigation should be visible",
+    "line" : 13,
+    "status" : "PASSED",
+    "durationMs" : 3,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the dashboard summary cards should be visible",
+    "line" : 14,
+    "status" : "PASSED",
+    "durationMs" : 44,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify dashboard summary counts",
+  "screenshot" : "UI/screenshots/Verify_dashboard_summary_counts-605740163369400.png",
+  "line" : 17,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 838,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 358,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Total Categories\" card should display \"9\"",
+    "line" : 18,
+    "status" : "FAILED",
+    "durationMs" : 23,
+    "error" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]"
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Products\" card should display \"27\"",
+    "line" : 19,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total SKUs\" card should display \"17\"",
+    "line" : 20,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Coupons\" card should display \"3\"",
+    "line" : 21,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Verify product status breakdown",
+  "screenshot" : "UI/screenshots/Verify_product_status_breakdown-605742822651300.png",
+  "line" : 24,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 924,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 336,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Total Products\" card should display \"25 active\"",
+    "line" : 25,
+    "status" : "FAILED",
+    "durationMs" : 11,
+    "error" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]"
+  }, {
+    "keyword" : "And ",
+    "text" : "the \"Total Products\" card should display \"2 inactive\"",
+    "line" : 26,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Navigate to the Products page",
+  "screenshot" : null,
+  "line" : 29,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 944,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 403,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator selects \"Products\" from the sidebar",
+    "line" : 30,
+    "status" : "PASSED",
+    "durationMs" : 99,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the Products management page should be displayed",
+    "line" : 31,
+    "status" : "PASSED",
+    "durationMs" : 10,
+    "error" : null
+  } ]
+}, {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature",
+  "module" : "Dashboard",
+  "name" : "Search for an admin page using sidebar search",
+  "screenshot" : null,
+  "line" : 34,
+  "status" : "PASSED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the administrator is logged in to Mini's n More admin portal",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 889,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "the administrator is on the Dashboard page",
+    "line" : 8,
+    "status" : "PASSED",
+    "durationMs" : 457,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "the administrator enters \"Products\" in the sidebar search field",
+    "line" : 35,
+    "status" : "PASSED",
+    "durationMs" : 33,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "the \"Products\" navigation item should be displayed",
+    "line" : 36,
+    "status" : "PASSED",
+    "durationMs" : 13,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "unrelated navigation items should not be displayed",
+    "line" : 37,
+    "status" : "PASSED",
+    "durationMs" : 15,
+    "error" : null
+  } ]
+} ]

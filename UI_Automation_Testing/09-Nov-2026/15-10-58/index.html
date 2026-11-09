@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Execution summary</title><style>body{font:15px Arial;margin:2rem;color:#222}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:.5rem}th{background:#eee}.PASS{color:green}.FAIL{color:#b00}.SKIP{color:#777}</style></head><body><h1>Execution summary</h1><p>Date/time: 2026-11-09T09:40:58.631575100Z | Duration: 29053 ms</p><p>Total: 5 | Passed: 3 | Failed: 2 | Skipped: 0 | Pass rate: 60.0%</p><p><a href="extent-report.html">Extent report</a> | <a href="execution-summary.json">JSON</a> | <a href="UI/ui-test-results.html">UI results</a> | <a href="API/api-test-results.html">API results</a> | <a href="cucumber-step-report.html">Cucumber step report</a></p><table><thead><tr><th>Module</th><th>Case ID</th><th>Description</th><th>Type</th><th>Status</th><th>Expected</th><th>Actual / Failure</th><th>Duration (ms)</th></tr></thead><tbody><tr><td>Dashboard</td><td>DASHBOARD-11</td><td>Verify dashboard page loads successfully</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>2390</td></tr><tr><td>Dashboard</td><td>DASHBOARD-17</td><td>Verify dashboard summary counts</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;9&#39; in the &#39;Total Categories&#39; card expected [true] but found [false]</td><td>1219</td></tr><tr><td>Dashboard</td><td>DASHBOARD-24</td><td>Verify product status breakdown</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;25 active&#39; in the &#39;Total Products&#39; card expected [true] but found [false]</td><td>1271</td></tr><tr><td>Dashboard</td><td>DASHBOARD-29</td><td>Navigate to the Products page</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>1456</td></tr><tr><td>Dashboard</td><td>DASHBOARD-34</td><td>Search for an admin page using sidebar search</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>1407</td></tr></tbody></table><script type="application/json" id="summary">{
+  "startedAt" : "2026-11-09T09:40:58.631575100Z",
+  "finishedAt" : "2026-11-09T09:41:27.684284900Z",
+  "durationMs" : 29053,
+  "total" : 5,
+  "passed" : 3,
+  "failed" : 2,
+  "skipped" : 0,
+  "passPercentage" : 60.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "PASS" : 3,
+      "FAIL" : 2
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 3,
+      "FAIL" : 2
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 2390,
+    "startedAt" : "2026-11-09T09:41:24.927525900Z",
+    "finishedAt" : "2026-11-09T09:41:27.318489Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1219,
+    "startedAt" : "2026-11-09T09:41:26.109081800Z",
+    "finishedAt" : "2026-11-09T09:41:27.328081800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1271,
+    "startedAt" : "2026-11-09T09:41:26.059743400Z",
+    "finishedAt" : "2026-11-09T09:41:27.330743400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1456,
+    "startedAt" : "2026-11-09T09:41:25.874743400Z",
+    "finishedAt" : "2026-11-09T09:41:27.330743400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1407,
+    "startedAt" : "2026-11-09T09:41:25.924743100Z",
+    "finishedAt" : "2026-11-09T09:41:27.331743100Z"
+  } ]
+}</script></body></html>

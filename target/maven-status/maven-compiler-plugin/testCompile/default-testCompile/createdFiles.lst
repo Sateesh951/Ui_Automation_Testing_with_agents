@@ -1,0 +1,9 @@
+com\automation\tests\ui\LoginDashboardTest.class
+com\automation\tests\api\DataDrivenApiTest.class
+com\automation\tests\cucumber\CucumberTestRunner.class
+com\automation\tests\cucumber\StepReportPlugin.class
+com\automation\tests\cucumber\StepReportPlugin$ScenarioRecord.class
+com\automation\tests\cucumber\StepReportPlugin$StepRecord.class
+com\automation\tests\cucumber\LoginNavigationSteps.class
+com\automation\tests\ui\DataDrivenUiTest.class
+com\automation\tests\cucumber\DashboardSteps.class

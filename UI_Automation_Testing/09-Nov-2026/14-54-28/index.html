@@ -1,0 +1,153 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Execution summary</title><style>body{font:15px Arial;margin:2rem;color:#222}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:.5rem}th{background:#eee}.PASS{color:green}.FAIL{color:#b00}.SKIP{color:#777}</style></head><body><h1>Execution summary</h1><p>Date/time: 2026-11-09T09:24:28.070540800Z | Duration: 96446 ms</p><p>Total: 10 | Passed: 1 | Failed: 9 | Skipped: 0 | Pass rate: 10.0%</p><p><a href="extent-report.html">Extent report</a> | <a href="execution-summary.json">JSON</a> | <a href="UI/ui-test-results.html">UI results</a> | <a href="API/api-test-results.html">API results</a> | <a href="cucumber-step-report.html">Cucumber step report</a></p><table><thead><tr><th>Module</th><th>Case ID</th><th>Description</th><th>Type</th><th>Status</th><th>Expected</th><th>Actual / Failure</th><th>Duration (ms)</th></tr></thead><tbody><tr><td>Dashboard</td><td>DASHBOARD-11</td><td>Verify dashboard page loads successfully</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Dashboard summary cards should include categories, products, SKUs, and coupons expected [true] but found [false]</td><td>5641</td></tr><tr><td>Dashboard</td><td>DASHBOARD-17</td><td>Verify dashboard summary counts</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;9&#39; in the &#39;Total Categories&#39; card expected [true] but found [false]</td><td>2796</td></tr><tr><td>Dashboard</td><td>DASHBOARD-24</td><td>Verify product status breakdown</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;25 active&#39; in the &#39;Total Products&#39; card expected [true] but found [false]</td><td>2488</td></tr><tr><td>Dashboard</td><td>DASHBOARD-29</td><td>Navigate to the Products page</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>3142</td></tr><tr><td>Dashboard</td><td>DASHBOARD-34</td><td>Search for an admin page using sidebar search</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected sidebar navigation item to be visible: Products expected [true] but found [false]</td><td>3060</td></tr><tr><td>Dashboard</td><td>DASHBOARD-40</td><td>Prevent dashboard access when the administrator is logged out</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded</td><td>12431</td></tr><tr><td>Dashboard</td><td>DASHBOARD-47</td><td>Handle dashboard summary service failure</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded</td><td>13214</td></tr><tr><td>Dashboard</td><td>DASHBOARD-54</td><td>Handle missing dashboard metric data</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded</td><td>11276</td></tr><tr><td>Dashboard</td><td>DASHBOARD-61</td><td>Display an empty state when sidebar search has no matches</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded</td><td>11358</td></tr><tr><td>Dashboard</td><td>DASHBOARD-67</td><td>Redirect the administrator when the session has expired</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]</td><td>2315</td></tr></tbody></table><script type="application/json" id="summary">{
+  "startedAt" : "2026-11-09T09:24:28.070540800Z",
+  "finishedAt" : "2026-11-09T09:26:04.516509600Z",
+  "durationMs" : 96446,
+  "total" : 10,
+  "passed" : 1,
+  "failed" : 9,
+  "skipped" : 0,
+  "passPercentage" : 10.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "FAIL" : 9,
+      "PASS" : 1
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "FAIL" : 9,
+      "PASS" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Dashboard summary cards should include categories, products, SKUs, and coupons expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 5641,
+    "startedAt" : "2026-11-09T09:25:58.443420400Z",
+    "finishedAt" : "2026-11-09T09:26:04.084420400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 2796,
+    "startedAt" : "2026-11-09T09:26:01.299840100Z",
+    "finishedAt" : "2026-11-09T09:26:04.095840100Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 2488,
+    "startedAt" : "2026-11-09T09:26:01.608857900Z",
+    "finishedAt" : "2026-11-09T09:26:04.096857900Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 3142,
+    "startedAt" : "2026-11-09T09:26:00.954857900Z",
+    "finishedAt" : "2026-11-09T09:26:04.096857900Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected sidebar navigation item to be visible: Products expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 3060,
+    "startedAt" : "2026-11-09T09:26:01.036857900Z",
+    "finishedAt" : "2026-11-09T09:26:04.096857900Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-40",
+    "description" : "Prevent dashboard access when the administrator is logged out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded",
+    "exceptionDetails" : null,
+    "durationMs" : 12431,
+    "startedAt" : "2026-11-09T09:25:51.666859Z",
+    "finishedAt" : "2026-11-09T09:26:04.097859Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-47",
+    "description" : "Handle dashboard summary service failure",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded",
+    "exceptionDetails" : null,
+    "durationMs" : 13214,
+    "startedAt" : "2026-11-09T09:25:50.883859Z",
+    "finishedAt" : "2026-11-09T09:26:04.097859Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-54",
+    "description" : "Handle missing dashboard metric data",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded",
+    "exceptionDetails" : null,
+    "durationMs" : 11276,
+    "startedAt" : "2026-11-09T09:25:52.821859Z",
+    "finishedAt" : "2026-11-09T09:26:04.097859Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-61",
+    "description" : "Display an empty state when sidebar search has no matches",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Timeout 10000ms exceeded",
+    "exceptionDetails" : null,
+    "durationMs" : 11358,
+    "startedAt" : "2026-11-09T09:25:52.740852800Z",
+    "finishedAt" : "2026-11-09T09:26:04.098852800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-67",
+    "description" : "Redirect the administrator when the session has expired",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 2315,
+    "startedAt" : "2026-11-09T09:26:01.783852800Z",
+    "finishedAt" : "2026-11-09T09:26:04.098852800Z"
+  } ]
+}</script></body></html>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-09T15:23:23 IST" name="Cucumber UI Automation" finished-at="2026-11-09T15:24:28 IST" duration-ms="65280">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-11-09T15:23:23 IST" name="Gherkin scenarios" finished-at="2026-11-09T15:24:28 IST" duration-ms="65280">
+      <class name="com.automation.tests.cucumber.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:23 IST" name="setUpClass" finished-at="2026-11-09T15:23:23 IST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef60295]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:23:44 IST" duration-ms="20401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify dashboard page loads successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:23:47 IST" duration-ms="3230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify dashboard summary counts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:23:50 IST" duration-ms="3012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify product status breakdown"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:23:53 IST" duration-ms="3009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the Products page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:23:56 IST" duration-ms="3000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for an admin page using sidebar search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:23:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:24:00 IST" duration-ms="4074" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Prevent dashboard access when the administrator is logged out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unauthenticated user should be redirected to the staff login page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+at ✽.the user should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:24:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:24:05 IST" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Handle dashboard summary service failure"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:24:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:24:20 IST" duration-ms="15210" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Handle missing dashboard metric data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+at ✽.the "Total SKUs" card should display an unavailable state(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:57)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:24:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:24:24 IST" duration-ms="4208" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display an empty state when sidebar search has no matches"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected message to be visible: No pages found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.automation.tests.cucumber.DashboardSteps.messageShouldBeDisplayed(DashboardSteps.java:185)
+at ✽.a "No pages found" message should be displayed(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:64)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:24:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-11-09T15:24:28 IST" duration-ms="3844" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Redirect the administrator when the session has expired"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mini's n More Admin Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unauthenticated user should be redirected to the staff login page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+at ✽.the administrator should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.tests.cucumber.CucumberTestRunner@2a65fe7c]" started-at="2026-11-09T15:24:28 IST" name="tearDownClass" finished-at="2026-11-09T15:24:28 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.tests.cucumber.CucumberTestRunner -->
+    </test> <!-- Gherkin scenarios -->
+  </suite> <!-- Cucumber UI Automation -->
+</testng-results>

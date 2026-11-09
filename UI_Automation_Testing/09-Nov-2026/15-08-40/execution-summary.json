@@ -1,0 +1,153 @@
+{
+  "startedAt" : "2026-11-09T09:38:40.497828Z",
+  "finishedAt" : "2026-11-09T09:39:26.024394600Z",
+  "durationMs" : 45527,
+  "total" : 10,
+  "passed" : 3,
+  "failed" : 7,
+  "skipped" : 0,
+  "passPercentage" : 30.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "PASS" : 3,
+      "FAIL" : 7
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 3,
+      "FAIL" : 7
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 3490,
+    "startedAt" : "2026-11-09T09:39:22.127865100Z",
+    "finishedAt" : "2026-11-09T09:39:25.617865100Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1800,
+    "startedAt" : "2026-11-09T09:39:23.830313800Z",
+    "finishedAt" : "2026-11-09T09:39:25.630313800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1307,
+    "startedAt" : "2026-11-09T09:39:24.325310400Z",
+    "finishedAt" : "2026-11-09T09:39:25.632310400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1376,
+    "startedAt" : "2026-11-09T09:39:24.256310400Z",
+    "finishedAt" : "2026-11-09T09:39:25.632310400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1288,
+    "startedAt" : "2026-11-09T09:39:24.344310400Z",
+    "finishedAt" : "2026-11-09T09:39:25.632310400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-40",
+    "description" : "Prevent dashboard access when the administrator is logged out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1375,
+    "startedAt" : "2026-11-09T09:39:24.257310400Z",
+    "finishedAt" : "2026-11-09T09:39:25.632310400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-47",
+    "description" : "Handle dashboard summary service failure",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: A user-friendly dashboard service error should be visible expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1850,
+    "startedAt" : "2026-11-09T09:39:23.782310400Z",
+    "finishedAt" : "2026-11-09T09:39:25.633955700Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-54",
+    "description" : "Handle missing dashboard metric data",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected an unavailable state for the 'Total SKUs' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1715,
+    "startedAt" : "2026-11-09T09:39:23.918955700Z",
+    "finishedAt" : "2026-11-09T09:39:25.633955700Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-61",
+    "description" : "Display an empty state when sidebar search has no matches",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1264,
+    "startedAt" : "2026-11-09T09:39:24.369955700Z",
+    "finishedAt" : "2026-11-09T09:39:25.633955700Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-67",
+    "description" : "Redirect the administrator when the session has expired",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1291,
+    "startedAt" : "2026-11-09T09:39:24.342955700Z",
+    "finishedAt" : "2026-11-09T09:39:25.633955700Z"
+  } ]
+}

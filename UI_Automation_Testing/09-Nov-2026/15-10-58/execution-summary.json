@@ -1,0 +1,88 @@
+{
+  "startedAt" : "2026-11-09T09:40:58.631575100Z",
+  "finishedAt" : "2026-11-09T09:41:27.684284900Z",
+  "durationMs" : 29053,
+  "total" : 5,
+  "passed" : 3,
+  "failed" : 2,
+  "skipped" : 0,
+  "passPercentage" : 60.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "PASS" : 3,
+      "FAIL" : 2
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 3,
+      "FAIL" : 2
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 2390,
+    "startedAt" : "2026-11-09T09:41:24.927525900Z",
+    "finishedAt" : "2026-11-09T09:41:27.318489Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1219,
+    "startedAt" : "2026-11-09T09:41:26.109081800Z",
+    "finishedAt" : "2026-11-09T09:41:27.328081800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1271,
+    "startedAt" : "2026-11-09T09:41:26.059743400Z",
+    "finishedAt" : "2026-11-09T09:41:27.330743400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1456,
+    "startedAt" : "2026-11-09T09:41:25.874743400Z",
+    "finishedAt" : "2026-11-09T09:41:27.330743400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1407,
+    "startedAt" : "2026-11-09T09:41:25.924743100Z",
+    "finishedAt" : "2026-11-09T09:41:27.331743100Z"
+  } ]
+}

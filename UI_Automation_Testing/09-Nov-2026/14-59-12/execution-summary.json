@@ -1,0 +1,153 @@
+{
+  "startedAt" : "2026-11-09T09:29:12.465715100Z",
+  "finishedAt" : "2026-11-09T09:31:12.844900700Z",
+  "durationMs" : 120379,
+  "total" : 10,
+  "passed" : 1,
+  "failed" : 9,
+  "skipped" : 0,
+  "passPercentage" : 10.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "PASS" : 1,
+      "FAIL" : 9
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 1,
+      "FAIL" : 9
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 2897,
+    "startedAt" : "2026-11-09T09:31:08.228923600Z",
+    "finishedAt" : "2026-11-09T09:31:11.125923600Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10021,
+    "startedAt" : "2026-11-09T09:31:01.137606800Z",
+    "finishedAt" : "2026-11-09T09:31:11.158606800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10007,
+    "startedAt" : "2026-11-09T09:31:01.161132300Z",
+    "finishedAt" : "2026-11-09T09:31:11.168132300Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10006,
+    "startedAt" : "2026-11-09T09:31:01.163145600Z",
+    "finishedAt" : "2026-11-09T09:31:11.169145600Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10009,
+    "startedAt" : "2026-11-09T09:31:01.161144500Z",
+    "finishedAt" : "2026-11-09T09:31:11.170144500Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-40",
+    "description" : "Prevent dashboard access when the administrator is logged out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10012,
+    "startedAt" : "2026-11-09T09:31:01.159146Z",
+    "finishedAt" : "2026-11-09T09:31:11.172149400Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-47",
+    "description" : "Handle dashboard summary service failure",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10012,
+    "startedAt" : "2026-11-09T09:31:01.161145800Z",
+    "finishedAt" : "2026-11-09T09:31:11.173145800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-54",
+    "description" : "Handle missing dashboard metric data",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10011,
+    "startedAt" : "2026-11-09T09:31:01.164145100Z",
+    "finishedAt" : "2026-11-09T09:31:11.175145100Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-61",
+    "description" : "Display an empty state when sidebar search has no matches",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10011,
+    "startedAt" : "2026-11-09T09:31:01.165144600Z",
+    "finishedAt" : "2026-11-09T09:31:11.176144600Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-67",
+    "description" : "Redirect the administrator when the session has expired",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-12861798498379395732\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.HEADING, new Page.GetByRoleOptions().setName(\"Mini's n More Dashboard\").setExact(true)) to be visible\n",
+    "exceptionDetails" : null,
+    "durationMs" : 10024,
+    "startedAt" : "2026-11-09T09:31:01.153691700Z",
+    "finishedAt" : "2026-11-09T09:31:11.177691700Z"
+  } ]
+}

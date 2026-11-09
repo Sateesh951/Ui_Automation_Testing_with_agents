@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="66.776" tests="10" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="cucumber.features" value="src/test/resources/features/Dashboard.feature"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\target\test-classes;C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\target\classes;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\playwright\1.56.0\playwright-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\Satish Reddy\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Satish Reddy\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\driver\1.56.0\driver-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\driver-bundle\1.56.0\driver-bundle-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Satish Reddy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Satish Reddy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Satish Reddy\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Satish Reddy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\json-schema-validator\5.5.6\json-schema-validator-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Satish Reddy\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Satish Reddy\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Satish Reddy\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Satish Reddy\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Satish Reddy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Satish Reddy\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Satish Reddy\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Satish Reddy\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Satish Reddy\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Satish Reddy\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Satish Reddy\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Satish Reddy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Satish Reddy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Satish Reddy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Satish Reddy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Satish Reddy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="src/test/resources/testng-cucumber.xml"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\Satish Reddy\AppData\Local\Temp\surefire5985151702103648787\surefirebooter-20261109152321930_3.jar C:\Users\Satish Reddy\AppData\Local\Temp\surefire5985151702103648787 2026-11-09T15-23-21_750-jvmRun1 surefire-20261109152321930_1tmp surefire_0-20261109152321930_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\target\test-classes;C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\target\classes;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\playwright\1.56.0\playwright-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\Satish Reddy\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Satish Reddy\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\driver\1.56.0\driver-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\com\microsoft\playwright\driver-bundle\1.56.0\driver-bundle-1.56.0.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Satish Reddy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Satish Reddy\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Satish Reddy\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Satish Reddy\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Satish Reddy\.m2\repository\io\rest-assured\json-schema-validator\5.5.6\json-schema-validator-5.5.6.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Satish Reddy\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Satish Reddy\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Satish Reddy\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Satish Reddy\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Satish Reddy\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Satish Reddy\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Satish Reddy\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Satish Reddy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Satish Reddy\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Satish Reddy\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\Satish Reddy\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Satish Reddy\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Satish Reddy\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Satish Reddy\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Satish Reddy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Satish Reddy\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\Satish Reddy\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Satish Reddy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Satish Reddy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Satish Reddy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Satish Reddy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\Satish Reddy\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Satish Reddy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="framework.config" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code/src/test/resources/config.properties"/>
+    <property name="framework.report.dir" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\UI_Automation_Testing\09-Nov-2026\15-23-22"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="framework.headless" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Satish Reddy\AppData\Local\Temp\surefire5985151702103648787\surefirebooter-20261109152321930_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="Satish Reddy"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Satish Reddy\.m2\repository"/>
+    <property name="framework.log.file" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\UI_Automation_Testing\09-Nov-2026\15-23-22\logs\execution.log"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SATISH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Satish Reddy\Python\Scripts\;C:\Users\Satish Reddy\Python\;C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Program Files\nodejs\;C:\Program Files\k6\;C:\Program Files\WSL\;C:\Users\Satish Reddy\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Satish Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Satish Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Satish Reddy\AppData\Local\GitHubDesktop\bin;;C:\Users\Satish Reddy\AppData\Local\Programs\Ollama;C:\Users\Satish Reddy\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\Satish Reddy\AppData\Roaming\npm;C:\Users\Satish Reddy\AppData\Local\Programs\DockerDesktop\resources\bin;c:\Users\Satish Reddy\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\node_modules.asar.unpacked\@vscode\ripgrep-universal\bin\win32-x64;c:\Users\Satish Reddy\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\node_modules.asar.unpacked\@github\copilot-sdk-win32-x64\ripgrep\bin\win32-x64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify dashboard page loads successfully&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](1)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="20.403">
+    <system-out><![CDATA[2026-11-09T15:23:23,357 INFO  [main] FrameworkListener - Starting suite 'Cucumber UI Automation' with reports at C:\Users\Satish Reddy\Desktop\UI and API Testing in VS Code\UI_Automation_Testing\09-Nov-2026\15-23-22
+
+@positive @smoke
+Scenario: Verify dashboard page loads successfully                   # src/test/resources/features/Dashboard.feature:11
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Then the page heading should be "Mini's n More Dashboard"          # com.automation.tests.cucumber.DashboardSteps.pageHeadingShouldBe(java.lang.String)
+  And the sidebar navigation should be visible                       # com.automation.tests.cucumber.DashboardSteps.sidebarNavigationShouldBeVisible()
+  And the dashboard summary cards should be visible                  # com.automation.tests.cucumber.DashboardSteps.dashboardSummaryCardsShouldBeVisible()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify dashboard summary counts&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](2)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="3.23">
+    <system-out><![CDATA[
+@positive
+Scenario: Verify dashboard summary counts                            # src/test/resources/features/Dashboard.feature:17
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Then the "Total Categories" card should display "9"                # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+  And the "Total Products" card should display "27"                  # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+  And the "Total SKUs" card should display "17"                      # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+  And the "Total Coupons" card should display "3"                    # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify product status breakdown&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](3)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="3.012">
+    <system-out><![CDATA[
+@positive
+Scenario: Verify product status breakdown                            # src/test/resources/features/Dashboard.feature:24
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Then the "Total Products" card should display "25 active"          # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+  And the "Total Products" card should display "2 inactive"          # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplay(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to the Products page&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](4)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="3.011">
+    <system-out><![CDATA[
+@positive
+Scenario: Navigate to the Products page                              # src/test/resources/features/Dashboard.feature:29
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  When the administrator selects "Products" from the sidebar         # com.automation.tests.cucumber.DashboardSteps.administratorSelectsSidebarPage(java.lang.String)
+  Then the Products management page should be displayed              # com.automation.tests.cucumber.DashboardSteps.productsManagementPageShouldBeDisplayed()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for an admin page using sidebar search&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](5)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="3.002">
+    <system-out><![CDATA[
+@positive
+Scenario: Search for an admin page using sidebar search                # src/test/resources/features/Dashboard.feature:34
+  Given the administrator is logged in to Mini's n More admin portal   # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                       # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  When the administrator enters "Products" in the sidebar search field # com.automation.tests.cucumber.DashboardSteps.administratorEntersSidebarSearch(java.lang.String)
+  Then the "Products" navigation item should be displayed              # com.automation.tests.cucumber.DashboardSteps.navigationItemShouldBeDisplayed(java.lang.String)
+  And unrelated navigation items should not be displayed               # com.automation.tests.cucumber.DashboardSteps.unrelatedNavigationItemsShouldNotBeDisplayed()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Prevent dashboard access when the administrator is logged out&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](6)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="4.078">
+    <failure message="Unauthenticated user should be redirected to the staff login page expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+	at ✽.the user should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:43)
+]]></failure>
+    <system-out><![CDATA[
+@negative
+Scenario: Prevent dashboard access when the administrator is logged out # src/test/resources/features/Dashboard.feature:40
+  Given the administrator is logged in to Mini's n More admin portal    # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                        # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Given the administrator is logged out                                 # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedOut()
+  When the user navigates directly to the Dashboard URL                 # com.automation.tests.cucumber.DashboardSteps.userNavigatesDirectlyToDashboard()
+  Then the user should be redirected to the login page                  # com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin()
+      java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+	at ✽.the user should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:43)
+
+  And dashboard data should not be displayed                            # com.automation.tests.cucumber.DashboardSteps.dashboardDataShouldNotBeDisplayed()
+
+    Embedding Dashboard scenario failure [image/png 845735 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Handle dashboard summary service failure&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](7)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="4.945">
+    <system-out><![CDATA[
+@negative
+Scenario: Handle dashboard summary service failure                   # src/test/resources/features/Dashboard.feature:47
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Given the dashboard summary service is unavailable                 # com.automation.tests.cucumber.DashboardSteps.dashboardSummaryServiceIsUnavailable()
+  When the administrator opens the Dashboard page                    # com.automation.tests.cucumber.DashboardSteps.administratorOpensDashboard()
+  Then a user-friendly error message should be displayed             # com.automation.tests.cucumber.DashboardSteps.userFriendlyErrorMessageShouldBeDisplayed()
+  And fabricated metric values should not be displayed               # com.automation.tests.cucumber.DashboardSteps.fabricatedMetricValuesShouldNotBeDisplayed()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Handle missing dashboard metric data&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](8)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="15.212">
+    <failure message="Error {&#10;  message=&apos;Timeout 10000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 10000ms exceeded.&#10;    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)&#10;    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)&#10;    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)&#10;}&#10;Call log:&#10;-   - waiting for getByText(&quot;Total SKUs&quot;).first().locator(&quot;..&quot;).getByText(Pattern.compile(&quot;\\b(unavailable|not available|n\\/?a)\\b|[—–]&quot;, Pattern.CASE_INSENSITIVE)) to be visible&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+	at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+	at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+	at ✽.the "Total SKUs" card should display an unavailable state(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:57)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+	at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+	at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+@negative
+Scenario: Handle missing dashboard metric data                                 # src/test/resources/features/Dashboard.feature:54
+  Given the administrator is logged in to Mini's n More admin portal           # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                               # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Given the dashboard summary response does not contain the "Total SKUs" value # com.automation.tests.cucumber.DashboardSteps.summaryResponseOmitsMetric(java.lang.String)
+  When the administrator opens the Dashboard page                              # com.automation.tests.cucumber.DashboardSteps.administratorOpensDashboard()
+  Then the "Total SKUs" card should display an unavailable state               # com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(java.lang.String)
+      com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:138)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+	at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+	at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+	at ✽.the "Total SKUs" card should display an unavailable state(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:57)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 10000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-4919869807386297758\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByText("Total SKUs").first().locator("..").getByText(Pattern.compile("\\b(unavailable|not available|n\\/?a)\\b|[—–]", Pattern.CASE_INSENSITIVE)) to be visible
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:257)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:214)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:136)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:131)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:124)
+	at com.microsoft.playwright.impl.FrameImpl.waitForSelectorImpl(FrameImpl.java:985)
+	at com.microsoft.playwright.impl.LocatorImpl.waitFor(LocatorImpl.java:625)
+	at com.automation.pages.AdminDashboardPage.metricCardHasUnavailableState(AdminDashboardPage.java:90)
+	at com.automation.tests.cucumber.DashboardSteps.metricCardShouldDisplayUnavailableState(DashboardSteps.java:167)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+  And the card should not display "undefined" or "null"                        # com.automation.tests.cucumber.DashboardSteps.metricCardShouldNotDisplayValues(java.lang.String,java.lang.String)
+
+    Embedding Dashboard scenario failure [image/png 1015319 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Display an empty state when sidebar search has no matches&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](9)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="4.208">
+    <failure message="Expected message to be visible: No pages found expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.messageShouldBeDisplayed(DashboardSteps.java:185)
+	at ✽.a "No pages found" message should be displayed(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:64)
+]]></failure>
+    <system-out><![CDATA[
+@negative
+Scenario: Display an empty state when sidebar search has no matches              # src/test/resources/features/Dashboard.feature:61
+  Given the administrator is logged in to Mini's n More admin portal             # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                                 # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  When the administrator enters "NoSuchAdminPage123" in the sidebar search field # com.automation.tests.cucumber.DashboardSteps.administratorEntersSidebarSearch(java.lang.String)
+  Then no navigation items should be displayed                                   # com.automation.tests.cucumber.DashboardSteps.noNavigationItemsShouldBeDisplayed()
+  And a "No pages found" message should be displayed                             # com.automation.tests.cucumber.DashboardSteps.messageShouldBeDisplayed(java.lang.String)
+      java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.messageShouldBeDisplayed(DashboardSteps.java:185)
+	at ✽.a "No pages found" message should be displayed(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:64)
+
+
+    Embedding Dashboard scenario failure [image/png 995232 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Redirect the administrator when the session has expired&quot;, &quot;Mini&apos;s n More Admin Dashboard&quot;](10)" classname="com.automation.tests.cucumber.CucumberTestRunner" time="3.845">
+    <failure message="Unauthenticated user should be redirected to the staff login page expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+	at ✽.the administrator should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:70)
+]]></failure>
+    <system-out><![CDATA[
+@negative
+Scenario: Redirect the administrator when the session has expired    # src/test/resources/features/Dashboard.feature:67
+  Given the administrator is logged in to Mini's n More admin portal # com.automation.tests.cucumber.DashboardSteps.administratorIsLoggedIn()
+  And the administrator is on the Dashboard page                     # com.automation.tests.cucumber.DashboardSteps.administratorIsOnDashboard()
+  Given the administrator's session has expired                      # com.automation.tests.cucumber.DashboardSteps.administratorSessionHasExpired()
+  When the administrator refreshes the Dashboard page                # com.automation.tests.cucumber.DashboardSteps.administratorRefreshesDashboard()
+  Then the administrator should be redirected to the login page      # com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin()
+      java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.automation.tests.cucumber.DashboardSteps.userShouldBeRedirectedToLogin(DashboardSteps.java:126)
+	at ✽.the administrator should be redirected to the login page(file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/src/test/resources/features/Dashboard.feature:70)
+
+  And protected dashboard information should not be visible          # com.automation.tests.cucumber.DashboardSteps.protectedDashboardInformationShouldNotBeVisible()
+
+    Embedding Dashboard scenario failure [image/png 845734 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,71 @@
+[ {
+  "feature" : "file:///C:/Users/Satish%20Reddy/Desktop/UI%20and%20API%20Testing%20in%20VS%20Code/Test%20cases/Login%20Dashboard%20Categories%20Logout.feature",
+  "module" : "Login",
+  "name" : "Sign in, verify Dashboard and Categories, then sign out",
+  "line" : 10,
+  "status" : "FAILED",
+  "steps" : [ {
+    "keyword" : "Given ",
+    "text" : "the Mini's n More UAT application is available",
+    "line" : 7,
+    "status" : "PASSED",
+    "durationMs" : 1,
+    "error" : null
+  }, {
+    "keyword" : "Given ",
+    "text" : "I am on the staff sign-in page",
+    "line" : 11,
+    "status" : "PASSED",
+    "durationMs" : 3913,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "I sign in with valid staff credentials",
+    "line" : 12,
+    "status" : "PASSED",
+    "durationMs" : 1383,
+    "error" : null
+  }, {
+    "keyword" : "And ",
+    "text" : "I click \"Dashboard\" in the admin navigation",
+    "line" : 13,
+    "status" : "PASSED",
+    "durationMs" : 76,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "I should see the \"Mini's n More Dashboard\" heading",
+    "line" : 14,
+    "status" : "PASSED",
+    "durationMs" : 10,
+    "error" : null
+  }, {
+    "keyword" : "When ",
+    "text" : "I click \"Categories\" in the admin navigation",
+    "line" : 15,
+    "status" : "PASSED",
+    "durationMs" : 38,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "I should see the \"Catego\" heading",
+    "line" : 16,
+    "status" : "FAILED",
+    "durationMs" : 16,
+    "error" : "java.lang.AssertionError: Expected visible heading: Catego expected [true] but found [false]"
+  }, {
+    "keyword" : "When ",
+    "text" : "I click \"Sign out\"",
+    "line" : 17,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  }, {
+    "keyword" : "Then ",
+    "text" : "I should be returned to the staff sign-in page",
+    "line" : 18,
+    "status" : "SKIPPED",
+    "durationMs" : 0,
+    "error" : null
+  } ]
+} ]

@@ -1,0 +1,34 @@
+{
+  "startedAt" : "2026-11-09T08:22:56.612877100Z",
+  "finishedAt" : "2026-11-09T08:23:23.117309200Z",
+  "durationMs" : 26505,
+  "total" : 1,
+  "passed" : 1,
+  "failed" : 0,
+  "skipped" : 0,
+  "passPercentage" : 100.0,
+  "moduleSummary" : {
+    "Unknown" : {
+      "PASS" : 1
+    }
+  },
+  "typeSummary" : {
+    "Unknown" : {
+      "PASS" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Unknown",
+    "testCaseId" : "runScenario",
+    "description" : "runScenario",
+    "testType" : "Unknown",
+    "status" : "PASS",
+    "expectedResult" : "",
+    "actualResult" : "All configured assertions passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 25093,
+    "startedAt" : "2026-11-09T08:22:57.528021600Z",
+    "finishedAt" : "2026-11-09T08:23:22.615446800Z"
+  } ]
+}

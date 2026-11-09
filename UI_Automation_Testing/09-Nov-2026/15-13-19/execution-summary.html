@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Execution summary</title><style>body{font:15px Arial;margin:2rem;color:#222}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:.5rem}th{background:#eee}.PASS{color:green}.FAIL{color:#b00}.SKIP{color:#777}</style></head><body><h1>Execution summary</h1><p>Date/time: 2026-11-09T09:43:19.995267700Z | Duration: 32463 ms</p><p>Total: 5 | Passed: 1 | Failed: 4 | Skipped: 0 | Pass rate: 20.0%</p><p><a href="extent-report.html">Extent report</a> | <a href="execution-summary.json">JSON</a> | <a href="UI/ui-test-results.html">UI results</a> | <a href="API/api-test-results.html">API results</a> | <a href="cucumber-step-report.html">Cucumber step report</a></p><table><thead><tr><th>Module</th><th>Case ID</th><th>Description</th><th>Type</th><th>Status</th><th>Expected</th><th>Actual / Failure</th><th>Duration (ms)</th></tr></thead><tbody><tr><td>Dashboard</td><td>DASHBOARD-40</td><td>Prevent dashboard access when the administrator is logged out</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]</td><td>3127</td></tr><tr><td>Dashboard</td><td>DASHBOARD-47</td><td>Handle dashboard summary service failure</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>2121</td></tr><tr><td>Dashboard</td><td>DASHBOARD-54</td><td>Handle missing dashboard metric data</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected an unavailable state for the &#39;Total SKUs&#39; card expected [true] but found [false]</td><td>2469</td></tr><tr><td>Dashboard</td><td>DASHBOARD-61</td><td>Display an empty state when sidebar search has no matches</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]</td><td>1902</td></tr><tr><td>Dashboard</td><td>DASHBOARD-67</td><td>Redirect the administrator when the session has expired</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]</td><td>1585</td></tr></tbody></table><script type="application/json" id="summary">{
+  "startedAt" : "2026-11-09T09:43:19.995267700Z",
+  "finishedAt" : "2026-11-09T09:43:52.458643Z",
+  "durationMs" : 32463,
+  "total" : 5,
+  "passed" : 1,
+  "failed" : 4,
+  "skipped" : 0,
+  "passPercentage" : 20.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "FAIL" : 4,
+      "PASS" : 1
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "FAIL" : 4,
+      "PASS" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-40",
+    "description" : "Prevent dashboard access when the administrator is logged out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 3127,
+    "startedAt" : "2026-11-09T09:43:48.970526600Z",
+    "finishedAt" : "2026-11-09T09:43:52.097526600Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-47",
+    "description" : "Handle dashboard summary service failure",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 2121,
+    "startedAt" : "2026-11-09T09:43:49.986054100Z",
+    "finishedAt" : "2026-11-09T09:43:52.107054100Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-54",
+    "description" : "Handle missing dashboard metric data",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected an unavailable state for the 'Total SKUs' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 2469,
+    "startedAt" : "2026-11-09T09:43:49.639054800Z",
+    "finishedAt" : "2026-11-09T09:43:52.108054800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-61",
+    "description" : "Display an empty state when sidebar search has no matches",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1902,
+    "startedAt" : "2026-11-09T09:43:50.206054800Z",
+    "finishedAt" : "2026-11-09T09:43:52.108054800Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-67",
+    "description" : "Redirect the administrator when the session has expired",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1585,
+    "startedAt" : "2026-11-09T09:43:50.523054800Z",
+    "finishedAt" : "2026-11-09T09:43:52.108054800Z"
+  } ]
+}</script></body></html>

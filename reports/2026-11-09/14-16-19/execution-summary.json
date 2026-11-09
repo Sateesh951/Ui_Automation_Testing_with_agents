@@ -1,0 +1,34 @@
+{
+  "startedAt" : "2026-11-09T08:46:19.079778100Z",
+  "finishedAt" : "2026-11-09T08:46:40.476753500Z",
+  "durationMs" : 21397,
+  "total" : 1,
+  "passed" : 0,
+  "failed" : 1,
+  "skipped" : 0,
+  "passPercentage" : 0.0,
+  "moduleSummary" : {
+    "Login" : {
+      "FAIL" : 1
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "FAIL" : 1
+    }
+  },
+  "tests" : [ {
+    "module" : "Login",
+    "testCaseId" : "LOGIN-10",
+    "description" : "Sign in, verify Dashboard and Categories, then sign out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected visible heading: Catego expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 0,
+    "startedAt" : "2026-11-09T08:46:39.548343600Z",
+    "finishedAt" : "2026-11-09T08:46:39.548343600Z"
+  } ]
+}

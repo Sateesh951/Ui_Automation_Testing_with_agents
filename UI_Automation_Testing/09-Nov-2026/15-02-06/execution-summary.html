@@ -1,0 +1,193 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Execution summary</title><style>body{font:15px Arial;margin:2rem;color:#222}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:.5rem}th{background:#eee}.PASS{color:green}.FAIL{color:#b00}.SKIP{color:#777}</style></head><body><h1>Execution summary</h1><p>Date/time: 2026-11-09T09:32:06.226126500Z | Duration: 69462 ms</p><p>Total: 10 | Passed: 3 | Failed: 7 | Skipped: 0 | Pass rate: 30.0%</p><p><a href="extent-report.html">Extent report</a> | <a href="execution-summary.json">JSON</a> | <a href="UI/ui-test-results.html">UI results</a> | <a href="API/api-test-results.html">API results</a> | <a href="cucumber-step-report.html">Cucumber step report</a></p><table><thead><tr><th>Module</th><th>Case ID</th><th>Description</th><th>Type</th><th>Status</th><th>Expected</th><th>Actual / Failure</th><th>Duration (ms)</th></tr></thead><tbody><tr><td>Dashboard</td><td>DASHBOARD-11</td><td>Verify dashboard page loads successfully</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>2769</td></tr><tr><td>Dashboard</td><td>DASHBOARD-17</td><td>Verify dashboard summary counts</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;9&#39; in the &#39;Total Categories&#39; card expected [true] but found [false]</td><td>1359</td></tr><tr><td>Dashboard</td><td>DASHBOARD-24</td><td>Verify product status breakdown</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected &#39;25 active&#39; in the &#39;Total Products&#39; card expected [true] but found [false]</td><td>1395</td></tr><tr><td>Dashboard</td><td>DASHBOARD-29</td><td>Navigate to the Products page</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>1419</td></tr><tr><td>Dashboard</td><td>DASHBOARD-34</td><td>Search for an admin page using sidebar search</td><td>UI</td><td class="PASS">PASS</td><td>All Gherkin steps pass.</td><td>Cucumber scenario passed.</td><td>1398</td></tr><tr><td>Dashboard</td><td>DASHBOARD-40</td><td>Prevent dashboard access when the administrator is logged out</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]</td><td>1524</td></tr><tr><td>Dashboard</td><td>DASHBOARD-47</td><td>Handle dashboard summary service failure</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Error {
+  message=&#39;Timeout 10000ms exceeded.
+  name=&#39;TimeoutError
+  stack=&#39;TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName(&quot;Sign in&quot;).setExact(true))
+-     - locator resolved to &lt;button type=&quot;submit&quot; class=&quot;w-full rounded-full bg-primary text-primary-foreground py-3 font-medium hover:shadow-glow transition disabled:opacity-60&quot;&gt;Sign in&lt;/button&gt;
+-   - attempting click action
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - performing click action
+-     - &lt;html lang=&quot;en&quot;&gt;…&lt;/html&gt; intercepts pointer events
+-   - retrying click action
+-     - waiting for element to be visible, enabled and stable
+-   - element was detached from the DOM, retrying
+-     - locator resolved to &lt;button type=&quot;submit&quot; class=&quot;w-full rounded-full bg-primary text-primary-foreground py-3 font-medium hover:shadow-glow transition disabled:opacity-60&quot;&gt;Sign in&lt;/button&gt;
+-   - attempting click action
+-     - waiting for element to be visible, enabled and stable
+-   - element was detached from the DOM, retrying
+</td><td>11394</td></tr><tr><td>Dashboard</td><td>DASHBOARD-54</td><td>Handle missing dashboard metric data</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>com.microsoft.playwright.TimeoutError: Error {
+  message=&#39;Timeout 10000ms exceeded.
+  name=&#39;TimeoutError
+  stack=&#39;TimeoutError: Timeout 10000ms exceeded.
+    at ProgressController.run (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\progress.js:68:28)
+    at FrameDispatcher._runCommand (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\dispatchers\dispatcher.js:95:31)
+    at DispatcherConnection.dispatch (C:\Users\SATISH~1\AppData\Local\Temp\playwright-java-14301421157853167670\package\lib\server\dispatchers\dispatcher.js:329:39)
+}
+Call log:
+-   - waiting for getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName(&quot;Password (min 6)&quot;).setExact(true))
+-     - locator resolved to &lt;input value=&quot;&quot; type=&quot;password&quot; aria-invalid=&quot;false&quot; placeholder=&quot;Password (min 6)&quot; class=&quot;w-full rounded-2xl glass px-4 py-3 pr-11 text-sm outline-none focus:ring-2 focus:ring-primary/40 &quot;/&gt;
+-     - fill(&quot;admin6&quot;)
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+-   - element was detached from the DOM, retrying
+</td><td>11144</td></tr><tr><td>Dashboard</td><td>DASHBOARD-61</td><td>Display an empty state when sidebar search has no matches</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]</td><td>1573</td></tr><tr><td>Dashboard</td><td>DASHBOARD-67</td><td>Redirect the administrator when the session has expired</td><td>UI</td><td class="FAIL">FAIL</td><td>All Gherkin steps pass.</td><td>java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]</td><td>1655</td></tr></tbody></table><script type="application/json" id="summary">{
+  "startedAt" : "2026-11-09T09:32:06.226126500Z",
+  "finishedAt" : "2026-11-09T09:33:15.688594900Z",
+  "durationMs" : 69462,
+  "total" : 10,
+  "passed" : 3,
+  "failed" : 7,
+  "skipped" : 0,
+  "passPercentage" : 30.0,
+  "moduleSummary" : {
+    "Dashboard" : {
+      "PASS" : 3,
+      "FAIL" : 7
+    }
+  },
+  "typeSummary" : {
+    "UI" : {
+      "PASS" : 3,
+      "FAIL" : 7
+    }
+  },
+  "tests" : [ {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-11",
+    "description" : "Verify dashboard page loads successfully",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 2769,
+    "startedAt" : "2026-11-09T09:33:11.583858Z",
+    "finishedAt" : "2026-11-09T09:33:14.352858Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-17",
+    "description" : "Verify dashboard summary counts",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '9' in the 'Total Categories' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1359,
+    "startedAt" : "2026-11-09T09:33:13.014804100Z",
+    "finishedAt" : "2026-11-09T09:33:14.373804100Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-24",
+    "description" : "Verify product status breakdown",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected '25 active' in the 'Total Products' card expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1395,
+    "startedAt" : "2026-11-09T09:33:12.981316300Z",
+    "finishedAt" : "2026-11-09T09:33:14.376316300Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-29",
+    "description" : "Navigate to the Products page",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1419,
+    "startedAt" : "2026-11-09T09:33:12.957316300Z",
+    "finishedAt" : "2026-11-09T09:33:14.376316300Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-34",
+    "description" : "Search for an admin page using sidebar search",
+    "testType" : "UI",
+    "status" : "PASS",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario passed.",
+    "failureReason" : null,
+    "exceptionDetails" : null,
+    "durationMs" : 1398,
+    "startedAt" : "2026-11-09T09:33:12.983173300Z",
+    "finishedAt" : "2026-11-09T09:33:14.381173300Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-40",
+    "description" : "Prevent dashboard access when the administrator is logged out",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1524,
+    "startedAt" : "2026-11-09T09:33:12.857686500Z",
+    "finishedAt" : "2026-11-09T09:33:14.381686500Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-47",
+    "description" : "Handle dashboard summary service failure",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName(\"Sign in\").setExact(true))\n-     - locator resolved to <button type=\"submit\" class=\"w-full rounded-full bg-primary text-primary-foreground py-3 font-medium hover:shadow-glow transition disabled:opacity-60\">Sign in<\/button>\n-   - attempting click action\n-     - waiting for element to be visible, enabled and stable\n-     - element is visible, enabled and stable\n-     - scrolling into view if needed\n-     - done scrolling\n-     - performing click action\n-     - <html lang=\"en\">…<\/html> intercepts pointer events\n-   - retrying click action\n-     - waiting for element to be visible, enabled and stable\n-   - element was detached from the DOM, retrying\n-     - locator resolved to <button type=\"submit\" class=\"w-full rounded-full bg-primary text-primary-foreground py-3 font-medium hover:shadow-glow transition disabled:opacity-60\">Sign in<\/button>\n-   - attempting click action\n-     - waiting for element to be visible, enabled and stable\n-   - element was detached from the DOM, retrying\n",
+    "exceptionDetails" : null,
+    "durationMs" : 11394,
+    "startedAt" : "2026-11-09T09:33:02.987686500Z",
+    "finishedAt" : "2026-11-09T09:33:14.381686500Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-54",
+    "description" : "Handle missing dashboard metric data",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "com.microsoft.playwright.TimeoutError: Error {\n  message='Timeout 10000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 10000ms exceeded.\n    at ProgressController.run (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\progress.js:68:28)\n    at FrameDispatcher._runCommand (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\dispatchers\\dispatcher.js:95:31)\n    at DispatcherConnection.dispatch (C:\\Users\\SATISH~1\\AppData\\Local\\Temp\\playwright-java-14301421157853167670\\package\\lib\\server\\dispatchers\\dispatcher.js:329:39)\n}\nCall log:\n-   - waiting for getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName(\"Password (min 6)\").setExact(true))\n-     - locator resolved to <input value=\"\" type=\"password\" aria-invalid=\"false\" placeholder=\"Password (min 6)\" class=\"w-full rounded-2xl glass px-4 py-3 pr-11 text-sm outline-none focus:ring-2 focus:ring-primary/40 \"/>\n-     - fill(\"admin6\")\n-   - attempting fill action\n-     - waiting for element to be visible, enabled and editable\n-   - element was detached from the DOM, retrying\n",
+    "exceptionDetails" : null,
+    "durationMs" : 11144,
+    "startedAt" : "2026-11-09T09:33:03.239709700Z",
+    "finishedAt" : "2026-11-09T09:33:14.383709700Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-61",
+    "description" : "Display an empty state when sidebar search has no matches",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Expected message to be visible: No pages found expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1573,
+    "startedAt" : "2026-11-09T09:33:12.810709700Z",
+    "finishedAt" : "2026-11-09T09:33:14.383709700Z"
+  }, {
+    "module" : "Dashboard",
+    "testCaseId" : "DASHBOARD-67",
+    "description" : "Redirect the administrator when the session has expired",
+    "testType" : "UI",
+    "status" : "FAIL",
+    "expectedResult" : "All Gherkin steps pass.",
+    "actualResult" : "Cucumber scenario failed.",
+    "failureReason" : "java.lang.AssertionError: Unauthenticated user should be redirected to the staff login page expected [true] but found [false]",
+    "exceptionDetails" : null,
+    "durationMs" : 1655,
+    "startedAt" : "2026-11-09T09:33:12.728709700Z",
+    "finishedAt" : "2026-11-09T09:33:14.383709700Z"
+  } ]
+}</script></body></html>
